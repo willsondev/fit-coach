@@ -40,3 +40,15 @@ function showSlider(type) {
         carouselDom.classList.remove('prev');
     }, timeRunning);
 }
+
+
+/**///////////modal////////////// */
+
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+
